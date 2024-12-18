@@ -1,0 +1,52 @@
+body {
+    background: url("./images/weather_background_green.jpg") no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50; /* 어두운 회색으로 변경 */
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-box {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.85); /* 배경을 약간 더 투명하게 */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: #e74c3c; /* 빨간색을 조금 더 부드러운 색으로 변경 */
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background-color: #2ecc71; /* 밝은 초록색 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #27ae60; /* 조금 더 어두운 초록색 */
+}
