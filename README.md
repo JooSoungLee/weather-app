@@ -1,3 +1,6 @@
+# 샘플 페이지 URL (브라우저의 위치정보를 허용하여야 사용 가능합니다.)
+https://joosounglee.github.io/weatherApp/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
